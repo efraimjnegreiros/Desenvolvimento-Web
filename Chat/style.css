@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Sales</title>
-    <style>
-        * {
+* {
             background-color: lightgrey;
         }
         div {
@@ -32,19 +25,3 @@
         .enviar {
             width: 500px;
         }
-    </style>
-</head>
-<body>
-    <div>
-        <img src="img1.jpg" alt="">
-        <p>Eric Sales</p>
-    </div>
-    <div class="chat">
-        <p id="teste"></p>
-        <div class="envio">
-        <input type="text" class="enviar">
-        <input type="submit">
-    </div>
-    </div>
-</body>
-</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efraim Negreiros</title>
+    <style>
+       body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+      }
+         .dados>#nome {
+            color: #0000FF;
+         }
+      h1::first-letter {
+            color: #000;
+      }
+      h1::selection {
+       color: #000;  
+       background-color: #00FF00;
+      }
+      
+   #editar {
+      animation: go-back 1s infinite;  
+   }
+   @keyframes go-back {
+         from {
+               transform: translateY(100px);
+         }
+         to {
+            transform: translateY(0);
+            }
+   }
+    </style>
+</head>
+<body>
+    <header class="dados">
+      <h1 id="nome">Efraim Negreiros</h1>
+    </header>
+    <main class="dados">
+      <p style="font-size:25px;">Data de Nascimento: 31/02/2008</p>
+      <p>Turma: 2° A</p>
+      <p style="font-size:25px;">Matrícula: 20231TDS-JG0096</p>
+    </main>
+    <footer>
+       <a href="alterar.html">
+      <input type="submit" value="Editar" id="editar">
+      </a>
+    </footer>
+</body>
+</html>

@@ -11,6 +11,11 @@
         h1 {
             text-align: center;
         }
+        header {
+         display: flex;
+         justify-content: space-evenly;
+        }
+        
         img {
             width: 100px;
             height: 100px;
@@ -22,18 +27,50 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            margin: 5px 5px;
         }
         p {
             align-self: center;
         }
+        header>img {
+         border-radius: 50px;
+         height: 70px;
+         width: 50px;
+        }
+        a::hover {
+            font-size: 30px;
+      }
     </style>
 </head>
 <body>
-    <h1>ST Communication</h1>
+   <header>
+      <h1>ST Communication</h1>
+      <a href="conta.html">
+      <img src="/home/efraim/Documentos/conta">
+      </a>
+   </header>
+    
     <a href="eric.html">
     <div>
         <img src="img1.jpg" alt="">
         <p>Eric Sales</p>
+    </div>
+    </a>
+    <a href="havana.html">
+           <div>
+        <img src="/home/efraim/Documentos/havana" alt="">
+        <p>Havana Alves</p>
+    </div>
+</a>
+ <a href="luciano.html">
+           <div>
+        <img src="/home/efraim/Documentos/luciano" alt="">
+        <p>Luciano Cabral</p>
+    </div>
+    <a href="afonso.html">
+           <div>
+        <img src="/home/efraim/Documentos/afonso" alt="">
+        <p>Afonso Agra</p>
     </div>
 </a>
 </body>
